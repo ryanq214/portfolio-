@@ -1,0 +1,73 @@
+
+body{
+  padding: 3%;
+  background-image: url("../images/rain-10.jpg");
+    /*https://www.google.com/search?q=rain+on+window+background&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ4fD12dTTAhUO82MKHc7UB6cQ_AUICigB&biw=1366&bih=584#imgrc=_*/
+
+}
+
+/***********************************************
+head section
+***********************************************/
+#head{
+  text-align: center;
+  text-shadow: 1px 1px black;
+
+}
+
+
+#me{
+  max-width: 20%;
+  box-shadow: 4px 4px black;
+
+}
+hr{
+  border-top: 2px solid;
+}
+
+/*****************************************
+navigation section
+******************************************/
+
+#nav{
+  background-color: rgba(0,0,0, 0.85);
+  text-align: center;
+  padding: 10px;
+
+}
+
+#nav button{
+  background-color: rgb(0, 51, 102);
+  margin-right: 10px;
+
+}
+
+#nav a{
+  color: white;
+}
+
+.link{
+  background-color:rgb(0, 51, 102);
+  padding: 8px;
+  display: inline;
+  border-radius: 5px;
+  margin-right: 10px;
+
+}
+
+/**********************************
+      BODY SECTION
+***********************************/
+
+#body{
+  background-color: rgba(0,0,0, 0.85);
+  /*text-align: center;*/
+  padding: 20px;
+  margin-top: 10px;
+
+}
+
+#body p{
+  color: white;
+
+}
