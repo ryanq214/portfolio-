@@ -1,7 +1,6 @@
 
 body{
-  /*background-color: yellow;*/
-  /*text-align: center;*/
+
   padding: 3%;
   background-image: url("../images/rain-10.jpg");
     /*https://www.google.com/search?q=rain+on+window+background&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ4fD12dTTAhUO82MKHc7UB6cQ_AUICigB&biw=1366&bih=584#imgrc=_*/
@@ -19,12 +18,12 @@ head section
 
 
 #me{
-  max-width: 20%;
+  max-width: 30%;
   box-shadow: 4px 4px black;
 
 }
 hr{
-  border-top: 2px solid;
+  border-top: 3px solid black;
 }
 
 /*****************************************
@@ -63,7 +62,7 @@ navigation section
 
 #body{
   background-color: rgba(0,0,0, 0.85);
-  /*text-align: center;*/
+  text-align: center;
   padding: 20px;
   margin-top: 10px;
 
@@ -96,3 +95,97 @@ li{
   max-width: 6.5%;
   border-radius: 21%;
 }
+
+
+
+
+/**********************************
+      meidiq quaries
+        medium screens
+***********************************/
+@media (max-width: 640px){
+
+  #me{
+    max-width: 40%;
+  }
+
+
+  .logo{
+    max-width: 15%;
+  }
+
+
+}
+
+
+/**********************************
+      meidiq quaries
+        small screen
+***********************************/
+
+
+
+
+@media (max-width: 460px){
+
+  #me{
+    max-width: 50%;
+
+  }
+  .link {
+    display: block;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+
+  .link + .link{
+    margin-top: 15px;
+  }
+
+  #nav button{
+    background-color: rgb(0, 51, 102);
+    margin-right: 0;
+
+  }
+
+
+
+  #body{
+    padding: 20px 0;
+
+  }
+
+
+
+  .logo{
+    max-width: 15%;
+
+  }
+  ul li{
+    float: left;
+    margin-left: -20px;
+
+  }
+
+  .group::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* */
