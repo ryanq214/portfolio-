@@ -1,0 +1,154 @@
+
+body{
+  padding: 3%;
+  background-image: url("../images/rain-10.jpg");
+    /*https://www.google.com/search?q=rain+on+window+background&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiQ4fD12dTTAhUO82MKHc7UB6cQ_AUICigB&biw=1366&bih=584#imgrc=_ */
+  /*font-family: 'Permanent Marker', sans-serif;*/
+  font-family: 'Rock Salt', sans-serif;
+  /*font-family: 'Fontdiner Swanky', sans-serif;
+  font-family: 'Frijole', sans-serif;
+  font-family: 'Knewave', sans-serif;
+  font-family: 'Mystery Quest', sans-serif;
+  font-family: 'Trade Winds', sans-serif;
+  font-family: 'Barrio', sans-serif;
+  font-family: 'Ravi Prakash', sans-serif;*/
+}
+
+/***********************************************
+head section
+***********************************************/
+#head{
+  text-align: center;
+  text-shadow: 1px 1px black;
+  /*color: white;*/
+
+}
+
+
+#me{
+  max-width: 30%;
+  box-shadow: 4px 4px black;
+
+}
+hr{
+  border-top: 3px solid black;
+}
+
+/*****************************************
+navigation section
+******************************************/
+
+#nav{
+  background-color: rgba(0,0,0, 0.85);
+  text-align: center;
+  padding: 25px;
+
+}
+
+#nav button{
+  background-color: rgb(0, 51, 102);
+  /*margin-right: 50px;*/
+
+}
+
+#nav a{
+  color: white;
+}
+
+.link{
+  background-color:rgb(0, 51, 102);
+  padding: 8px 25px;
+  display: inline;
+  border-radius: 5px;
+  margin-right: 30px;
+
+}
+
+/**********************************
+      BODY SECTION
+***********************************/
+
+#body{
+  background-color: rgba(0,0,0, 0.85);
+  /*text-align: center;*/
+  padding: 20px;
+  margin-top: 10px;
+  /*font-family: 'Ravi Prakash', sans-serif;*/
+
+
+}
+
+#body p{
+  color: white;
+  font-size: 1.2em;
+  /*font-size: 1.8em;*/
+  margin-bottom: 25px;
+}
+
+
+
+
+/**********************************
+      meidiq quaries
+***********************************/
+@media (max-width: 640px){
+
+  #body p{
+    font-size: 1em;
+  }
+
+  #me{
+    max-width: 40%;
+  }
+  .link {
+    padding: 8px;
+  }
+
+
+
+}
+
+@media (max-width: 490px){
+
+  #me{
+    max-width: 50%;
+
+  }
+  .link {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+
+  }
+
+  .link + .link{
+    margin-top: 15px;
+  }
+
+  #nav button{
+    background-color: rgb(0, 51, 102);
+    margin-right: 0;
+
+  }
+
+  #nav {
+    box-sizing: border-box;
+
+  }
+
+  #body{
+    padding: 20px 10px;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/* */
