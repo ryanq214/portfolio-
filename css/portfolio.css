@@ -73,15 +73,15 @@ navigation section
   /*text-align: center;*/
   padding: 20px;
   margin-top: 10px;
-  /*font-family: 'Ravi Prakash', sans-serif;*/
+  font-family: 'Ravi Prakash', sans-serif;
 
 
 }
 
 #body p{
   color: white;
-  font-size: 1.2em;
-  /*font-size: 1.8em;*/
+  /*font-size: 1.2em;*/
+  font-size: 1.8em;
   margin-bottom: 25px;
 }
 
