@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belt Exam challenge </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- Bootstrap   links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="belt.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      function changeImage1(){
+            var img = document.getElementById("im");
+            // img.src= this();
+            // img.src=  ( $(this).data("myval") ) ;
+            img.src= "pic/Man_Relaxing_on_Dock_resize.jpeg";
+            img.src= "pic/o-RELAXATION-GENE-RESPONSE-facebook.jpeg";
+            //  x.getAttribute("data-myval");
+            return false;
+          };
+
+      function changeImage2(){
+            var img = document.getElementById("im");
+            img.src= "pic/18843258-Young-businesswoman-relaxing-in-office-Stock-Photo-desk-woman.jpeg";
+            return false;
+          };
+
+      function changeImage3(){
+            var img = document.getElementById("im");
+            img.src= "pic/923398315-boyfriend-arm-lawn-girlfriend.jpeg";
+            return false;
+          };
+
+      function changeImage4(){
+            var img = document.getElementById("im");
+            img.src= "pic/Man_Relaxing_on_Dock_resize.jpeg";
+            return false;
+          };
+
+      $(document).ready(function(){
+        // alert("shi");
+
+        $("#top-page").click(function(){
+          document.body.scrollTop = 0; // For Chrome, Safari and Opera
+          document.documentElement.scrollTop = 0; // For IE and Firefox
+        });
+
+        // function changeImage(){
+        //       var img = document.getElementById("#im");
+        //       img.src="pic/logo.png";
+        //       return false;
+        //     };
+
+        // $(".cli").click(changeImage(  $(this).val() ) );
+
+      });
+
+    </script>
+
+  </head>
+  <body>
+
+    <header class="group">
+
+      <img src="pic/logo.png" alt="logo pic">
+      <h3>Call Us: (66) 234-678</h3>
+
+    </header>
+
+    <nav class="first-nav group">
+
+      <ul>
+        <li>  <a href="#"> Home</a> </li>
+        <li>  <a href="#"> Short Codes</a>  </li>
+        <li>  <a href="#"> Blog</a>  </li>
+        <li>  <a href="#"> Portfolio</a> </li>
+        <li>  <a href="#"> Features</a>  </li>
+        <li>  <a href="#"> Contact</a> </li>
+      </ul>
+
+    </nav>      <!-- first navigation section end-->
+
+    <div class="pict">
+
+
+      <img id="im" src="pic/o-RELAXATION-GENE-RESPONSE-facebook.jpeg" class="mainp" alt="Main Picture Here">
+
+      <figure class="clickme">
+
+      <span  onclick="changeImage1()" data-myval= "pic/logo.png" > ● </span>
+      <span  onclick="changeImage2();" > ● </span>
+      <span  onclick="changeImage3();" > ●</span>
+      <span  onclick="changeImage4();" > ● </span>
+
+      <!-- ° ● -->
+
+    </figure >
+
+
+    </div>
+
+
+
+    <nav class="sec-nav">
+
+      <ul>
+
+        <li>
+            <img src="pic/content_icon1.png" alt="cloud pic">
+          <div class="icon">
+            <h4>Ridiculus Ornare</h4>
+            <p>Aenean eu leo Quam. pellen tesque ornare sem lachinia qua venentias vestiubulum</p>
+          </div>
+        </li>
+
+          <li>
+            <img src="pic/content_icon2.png" alt="clock pic">
+            <div class="icon">
+              <h4>Ipsum Purus</h4>
+              <p>Integer Posuere erat a ante
+              ven enatis daplbus posuere velit allquest aenan</p>
+            </div>
+          </li>
+
+          <li>
+            <img src="pic/content_icon3.png" alt="spot pic">
+            <div class="icon">
+              <h4>Telllus Quam</h4>
+              <p>Aenean eu leo Quam. pellen tesque ornare sem lachinia qua venentias vestiubulum</p>
+              </div>
+          </li>
+
+          <li>
+            <img src="pic/content_icon4.png" alt="recycle pic">
+            <div class="icon">
+              <h4>Sem Egestas</h4>
+              <p>Aenean eu leo Quam. pellen tesque ornare sem lachinia qua venentias vestiubulum</p>
+            </div>
+          </li>
+
+      </ul>
+
+    </nav>    <!--second navigation section even -->
+
+    <div class="midd">
+
+      <div class="left">
+        <h3>Bibendum fusce Vehicula Ullamcorper fermentum</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque risl consectetur et.  Aenean Icaina Bibendum Null sed consecctetur. Fusce Dapibus, tellus ar cursus commod, totr mais. </p>
+      </div>
+
+      <button class="btn btn-warning"> Buy Me!</button>
+
+    </div>      <!-- midd content end -->
+
+
+
+
+
+    <div class="bott group">
+
+        <div class="bt">
+            <h3>Portfolio</h3>
+            <a href="w"> View All Projects --> </a>
+        </div>
+
+
+
+        <ul>
+
+          <li>
+            <a href="w"> <img src="pic/portfolio1.png" alt="port pic">  </a>
+            <h5>Built-in Shortcode</h5>
+            <p>You can easily use shortcode via icons in text editor. Easy! Cras mattis consectetur purus it amet fermentum.  Vestibulum id igula porta felis eusimo</p>
+
+          </li>
+
+          <li>
+            <a href="w"> <img src="pic/portfolio2.png" alt="bus pic">  </a>
+            <h5>New Page Builder</h5>
+            <p>Our page builder is the most flexible tool to create page.  We provide much options for each item, moreover, you can easily manage items via dr.</p>
+          </li>
+
+          <li>
+            <a href="w"> <img src="pic/portfolio3.png" alt="couple pic">  </a>
+            <h5>Access Elements Color</h5>
+            <p>You can access almost every elemnts color easily via admin panel.  Now creating unique website is not a big deal anymore!  Morbi Leo risus, porta ac.</p>
+          </li>
+
+          <li>
+            <a href="w"> <img src="pic/portfolio4.png" alt="city pic"> </a>
+            <h5>3 Custom Post Types</h5>
+            <p>We provide 3 custom psot types for most flexibilty of usage.  We have portfolio pso ttype which also has its own single page style.  Testimonial, you c.</p>
+          </li>
+        </ul>
+
+        <!-- <div class="bm">
+
+        </div>    -->
+
+        <div class="bb">
+          <a href="#" id="top-page"> Back to Top </a>
+        </div>
+
+
+    </div>           <!-- bott  ( botto seciont) end -->
+
+
+  </body>
+</html>
