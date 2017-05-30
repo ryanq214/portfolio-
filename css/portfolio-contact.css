@@ -155,7 +155,7 @@ li{
 @media (max-width: 490px){
 
   #me{
-    max-width: 50%;
+    max-width: 55%;
 
   }
   .link {
@@ -221,6 +221,28 @@ li{
 
 }
 
+
+
+@media (min-width: 300px){
+
+  #me{
+    width: 70%;
+  }
+
+
+
+}
+@media (min-width: 1000px ) {
+
+  #me{
+    width: 23%;
+    margin: 0;
+  }
+body{
+    padding-top: 20px;
+  }
+
+}
 
 
 
