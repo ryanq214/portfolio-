@@ -1,0 +1,90 @@
+
+
+ .main{
+   padding: 0 10px 30px;
+   text-align: center;
+ }
+
+ .main h2{
+   margin: 40px 0;
+ }
+
+ .red{
+   color: red;
+
+ }
+
+ .main > ol, .main > ul{
+   /*margin-top: 30px;*/
+   margin-bottom: 50px;
+   text-align: left;
+ }
+
+
+
+@media (min-width: 700px) {
+  ul, ol{
+    margin: 0 0 50px 0;
+    /*width: 80%;*/
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  /*ul li, ol li{
+    margin: 0;
+    padding: 0;
+  }*/
+
+}
+
+
+@media (min-width: 800px) {
+
+
+  h2 {
+    font-size: 2.2em;
+  }
+
+
+  p, li{
+    font-size: 1.3em;
+  }
+
+
+
+}
+
+
+
+
+@media (min-width: 900px) {
+  ul, ol{
+    width: 85%;
+
+  }
+
+  /*ul li, ol li{
+    margin: 0;
+    padding: 0;
+  }*/
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+
+
+
+/*  */

@@ -1,0 +1,39 @@
+.contain {
+  padding: 0 10px 20px;
+  text-align: center;
+}
+
+.contain a{
+  color: red;
+}
+
+
+.contain h3{
+  margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 800px){
+
+  .contain h3{
+    font-size: 2.2em;
+    margin-bottom: 70px;
+  }
+
+  .contain h4{
+    font-size: 1.9em;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (min-width: 1150px) {
+
+  .contain {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

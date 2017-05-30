@@ -1,0 +1,305 @@
+
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+body{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url("../pic/Vintage-Dark-Black-Damask-Background.jpeg") no-repeat center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Fredericka the Great', sans-serif;
+}
+
+
+
+.red{
+  color: red;
+}
+/****************************************
+    nav section
+*****************************************/
+
+nav img{
+  width: 300px;
+  margin: 0 auto;
+}
+nav .second{
+  width: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a{
+  color: white;
+}
+
+nav{
+  background: linear-gradient(#848484, #2E2E2E);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding:10px 0;
+
+}
+nav h1{
+  font-family: 'Fredericka the Great', sans-serif;
+  padding: 0;
+  margin: 0;
+  /*margin-bottom: 20px;*/
+}
+.links a{
+  color: lightgrey;
+  margin: 0px auto 6px;
+  display: block;
+  width: 90%;
+
+  background-color: black;
+  border-radius: 7px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  margin-bottom: 10px;
+}
+.links a:hover{
+  color: #b5262c;
+}
+
+.links{
+  width: 100%;
+}
+
+
+/****************************************
+    content
+      main section
+*****************************************/
+
+.content{
+  padding: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Fredericka the Great', sans-serif;
+
+}
+
+.content img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.content h4{
+  margin: 0 10px;
+
+
+}
+
+.content h4 + h4{
+  margin-top: 30px;
+
+}
+
+
+
+/**********************************
+  back to top button
+**********************************/
+
+
+.b-t{
+  color: yellow;
+  text-align: center;
+  display: block;
+  /*margin: 20px 0 10px;*/
+  clear: both;
+}
+
+.b-t:hover{
+  text-decoration: underline;
+  cursor: pointer; cursor: hand;
+}
+
+
+
+
+/****************************************
+    footer section
+*****************************************/
+
+
+footer{
+  background: linear-gradient(#848484, #2E2E2E);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding:3px 0;
+  clear: both;
+
+}
+
+.top{
+  min-height: calc( 100vh - 45px);
+}
+
+
+
+
+
+
+/********************************************************************************
+    Media Queries
+*********************************************************************************/
+
+@media (min-width: 400px){
+
+  /****************************************
+      nav section
+  *****************************************/
+
+  /*nav img{
+    width: 400px;
+  }*/
+
+  .links a{
+    display: inline-block;
+    width: 45%;
+  }
+
+
+  /****************************************
+      main section
+  *****************************************/
+
+  .content img{
+    width: 400px;
+  }
+
+  .content h4 + h4{
+    margin-top: 50px;
+
+  }
+
+}
+
+
+
+
+
+@media (min-width: 530px){
+
+  nav img{
+    width: 125px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  nav h1{
+    display: inline-block;
+    font-size: 3em;
+  }
+
+  nav .second {
+    width: 125px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
+@media (min-width: 585px){
+
+  nav img, nav .second{
+    width: 150px;
+    /*margin: 0 5% 10px;*/
+  }
+
+}
+
+
+
+
+@media (min-width: 603px){
+
+  .links a{
+    width: 30%;
+  }
+}
+
+
+
+@media (min-width: 650px){
+  .content h4{
+    font-size: 2em;
+  }
+  .content h1{
+    font-size: 3em;
+  }
+
+  nav img, nav .second {
+    margin: 0 2% 10px;
+
+  }
+
+}
+
+
+@media (min-width: 700px){
+
+  .content h4 + h4{
+    margin-top: 60px;
+  }
+
+}
+
+
+
+@media (min-width: 730px){
+
+  nav img, nav .second{
+    width: 150px;
+    margin: 0 5% 10px;
+  }
+
+}
+
+
+
+
+@media (min-width: 952px){
+
+  .links a{
+    width: 19%;
+    margin-left: 5px;
+    text-align: center;
+
+  }
+}
+
+
+@media (min-width:1042px){
+
+  .links a{
+    font-size: 1.1em;
+
+  }
+}
+
+
+/*************************************
+  Clear fix
+**************************************/
+
+.group::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*  */

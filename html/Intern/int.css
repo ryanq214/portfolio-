@@ -1,0 +1,329 @@
+html{
+  height: 100%;
+}
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  /*min-height: 100%;*/
+  max-height: 100%;
+  /*background: -moz-linear-gradient(top, #eaeaea, white);*/
+
+}
+
+
+/****************************************
+    top/ title section
+*****************************************/
+
+  .top{
+    height: 100px;
+    background: white;
+  }
+
+  #globe {
+    width: 8%;
+    position: absolute;
+  }
+
+  .top h1{
+    display: inline-block;
+    /*vertical-align: top;*/
+    font-size: 3em;
+    margin: 0;
+    padding: 35px 8% 0;
+  }
+
+  body span{
+    color: blue;
+  }
+
+
+/****************************************
+    Header / title section
+*****************************************/
+
+header{
+  background: linear-gradient(#26669c, #5bccde, #26669c );
+}
+header h1{
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: -5px;
+}
+
+
+
+/****************************************
+    left container
+      top left
+*****************************************/
+
+.topleft{
+  width: 13%;
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+button{
+  display: block;
+}
+
+.topleft h3 span{
+  color: red;
+}
+
+
+
+/****************************************
+    left container
+      left picture
+*****************************************/
+
+figure{
+  position: relative;
+}
+
+figure > img{
+  width: 180%;
+  margin-left: -40px;
+
+}
+
+figcaption img{
+  width: 80%;
+  margin-left: 10px;
+}
+
+figcaption{
+  position: absolute;
+  top: 90px;
+}
+
+figcaption h1{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 160%;
+  color: white;
+  font-size: 1.5em;
+  left: -34px;
+  top: -80px;
+  text-align: center;
+}
+
+
+
+/****************************************
+    left container
+      button styling
+*****************************************/
+
+.topleft >button{
+  color: white;
+  padding: 5px 0;
+  width: 100%;
+  font-size: 1em;
+  opacity: .9;
+}
+
+
+#one{
+  background-color: #428bca;
+  border-radius: 7px;
+}
+
+#two{
+  background-color: orange;
+  border-radius: 7px;
+}
+
+figcaption button{
+  width: 130%;
+  border-radius: 7px;
+  color: white;
+  background-color: skyblue;
+  padding: 5px 0;
+  font-size: 1em;
+  /*opacity: .9;*/
+  margin-left: -15px;
+}
+
+
+/****************************************
+    right section
+      the content on the riht side of the page
+
+*****************************************/
+
+.right {
+  width: 85%;
+  /*height: 960px;*/
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+
+/****************************************
+    headr section
+      (Head Right)
+*****************************************/
+
+.headr{
+  width: 100%;
+}
+
+.hl, .hr{
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+
+.headr img{
+  margin: 0;
+  padding: 0;
+}
+
+
+/****************************************
+    headr section
+      (Header on the  Right main section)
+      left half
+*****************************************/
+
+
+.hl{
+  padding-top: 10px;
+}
+
+.hl h1{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3em;
+  color: blue;
+}
+
+.hl img{
+  width: 4%;
+  display: inline-block;
+}
+
+
+
+/****************************************
+    headr section
+      (Header on the  Right main section)
+      righ half
+*****************************************/
+
+.hr{
+  text-align: right;
+  align-self: right;
+
+}
+
+.hr img{
+  width: 10%;
+  float: left;
+  padding-left: 58%;
+  padding-top: 10px;
+}
+
+.hr p, .hr h1{
+  margin: 0;
+  padding: 0;
+}
+
+.hr p{
+  font-size: .8em;
+}
+
+.hr h1{
+  color: aqua;
+  margin-bottom: -5px;
+
+}
+
+
+/****************************************
+    mainr
+      main content right side section
+*****************************************/
+
+
+/*.mainr{
+  height: 500px;
+  max-height: 100%;
+  box-sizing: border-box;
+}*/
+
+.mainr img{
+  width: 30%;
+  margin-left: 35%;
+}
+
+.mainr h1{
+  color: #26669c;
+  padding: 0;
+  margin: 0;
+}
+
+.mainr p, .mainr ul, .mainr ol{
+  font-size: 1.2em;
+}
+
+.mainr ul li, .mainr ol li{
+  padding: 5px 0;
+}
+
+.b{
+  color: black;
+  font-weight: bold;
+}
+
+.a{
+  color: skyblue;
+}
+
+
+
+/****************************************
+    mainB
+      main bottom section styling
+*****************************************/
+
+
+.mainb{
+  padding: 20px;
+  padding-bottom: 0px;
+  border: 5px solid blue;
+  border-bottom: 0;
+}
+/**/
+.mainb img{
+  width: 15%;
+  float: left;
+}
+
+.mainb h1{
+  color: #26669c;
+}
+
+.i{
+  font-style: italic;
+  color: black;
+}
+
+
+
+
+/*  */
